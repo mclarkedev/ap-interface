@@ -1,0 +1,14 @@
+byId:
+  button:
+    id: button
+    name: Button
+    parentId: root
+    path: /pages/button
+  button-pw8l5fxdgp:
+    id: button-pw8l5fxdgp
+    name: Button
+    parentId: button
+    path: /pattern/button-pw8l5fxdgp
+order:
+  - button
+  - button-pw8l5fxdgp

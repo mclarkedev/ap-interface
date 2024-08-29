@@ -1,0 +1,22 @@
+{
+  "id": "button-pw8l5fxdgp",
+  "title": "Button",
+  "description": "",
+  "statuses": {
+    "main": "draft"
+  },
+  "templates": [],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "klpCO2pm7"
+    }
+  ],
+  "subPages": [
+    {
+      "title": "Untitled",
+      "id": "klpCO2pm7",
+      "blockIds": []
+    }
+  ]
+}
