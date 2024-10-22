@@ -278,51 +278,54 @@ $color-light-text-success: rgb(0 108 66 / 100%);
 $color-light-text-warning: rgb(182 74 0 / 100%);
 $color-light-transparent: rgb(255 255 255 / 0%);
 $color-light-white: rgb(255 255 255 / 100%);
-$font-font-size-default: 14;
-$font-font-size-heading-default: 20;
-$font-font-size-heading-large: 24;
-$font-font-size-heading-small: 17;
-$font-font-size-heading-xl: 29;
-$font-font-size-heading-xs: 15;
-$font-font-size-heading-xxl: 34;
-$font-font-size-heading-xxxl: 49;
-$font-font-size-heading-xxxxl: 64;
-$font-font-size-large: 16;
-$font-font-size-small: 12;
-$font-line-height-heading: 120%;
-$font-style-default-bold: Bold;
-$font-style-default-medium: Medium;
-$font-style-default-regular: Regular;
-$font-style-heading-bold: SemiCondensed Bold;
-$font-style-heading-medium: SemiCondensed Medium;
-$radius-default: 4;
-$radius-full: 99999;
-$radius-large: 8;
-$radius-sharp: 2;
-$radius-xl: 16;
+$font-line-height-body-default: normal;
+$font-line-height-heading-default: 120%;
+$font-line-height-heading-xxxxl: 100%;
+$font-size-body-default: 14px;
+$font-size-body-large: 16px;
+$font-size-body-small: 12px;
+$font-size-heading-default: 20px;
+$font-size-heading-large: 24px;
+$font-size-heading-small: 17px;
+$font-size-heading-xl: 29px;
+$font-size-heading-xs: 15px;
+$font-size-heading-xxl: 34px;
+$font-size-heading-xxxl: 49px;
+$font-size-heading-xxxxl: 64px;
+$font-stretch-body-default: normal;
+$font-stretch-heading-default: semi-condensed;
+$font-weight-body-bold: 676;
+$font-weight-body-default: 400;
+$font-weight-body-medium: 530;
+$font-weight-heading-default: 700;
+$radius-default: 4px;
+$radius-full: 99999px;
+$radius-large: 8px;
+$radius-sharp: 2px;
+$radius-xl: 16px;
 $shadow-drop-default: 0px 4px 16px -8px #58585819;
-$space-0: 0;
-$space-4: 4;
-$space-8: 8;
-$space-12: 12;
-$space-16: 16;
-$space-20: 20;
-$space-24: 24;
-$space-32: 32;
-$space-40: 40;
-$space-48: 48;
-$space-56: 56;
-$space-64: 64;
-$space-72: 72;
-$space-80: 80;
-$space-160: 160;
-$space-240: 240;
-$space-320: 320;
-$space-400: 400;
-$space-560: 560;
-$space-640: 640;
-$space-720: 720;
-$space-800: 800;
+$space-0: 0px;
+$space-4: 4px;
+$space-8: 8px;
+$space-12: 12px;
+$space-16: 16px;
+$space-20: 20px;
+$space-24: 24px;
+$space-32: 32px;
+$space-40: 40px;
+$space-48: 48px;
+$space-56: 56px;
+$space-64: 64px;
+$space-72: 72px;
+$space-80: 80px;
+$space-160: 160px;
+$space-240: 240px;
+$space-320: 320px;
+$space-400: 400px;
+$space-560: 560px;
+$space-640: 640px;
+$space-720: 720px;
+$space-800: 800px;
 $tokens: (
   'blur': (
     'default': $blur-default,
@@ -639,23 +642,26 @@ $tokens: (
     ),
   ),
   'font': (
-    'font-size-default': $font-font-size-default,
-    'font-size-heading-default': $font-font-size-heading-default,
-    'font-size-heading-large': $font-font-size-heading-large,
-    'font-size-heading-small': $font-font-size-heading-small,
-    'font-size-heading-xl': $font-font-size-heading-xl,
-    'font-size-heading-xs': $font-font-size-heading-xs,
-    'font-size-heading-xxl': $font-font-size-heading-xxl,
-    'font-size-heading-xxxl': $font-font-size-heading-xxxl,
-    'font-size-heading-xxxxl': $font-font-size-heading-xxxxl,
-    'font-size-large': $font-font-size-large,
-    'font-size-small': $font-font-size-small,
-    'line-height-heading': $font-line-height-heading,
-    'style-default-bold': $font-style-default-bold,
-    'style-default-medium': $font-style-default-medium,
-    'style-default-regular': $font-style-default-regular,
-    'style-heading-bold': $font-style-heading-bold,
-    'style-heading-medium': $font-style-heading-medium,
+    'line-height-body-default': $font-line-height-body-default,
+    'line-height-heading-default': $font-line-height-heading-default,
+    'line-height-heading-xxxxl': $font-line-height-heading-xxxxl,
+    'size-body-default': $font-size-body-default,
+    'size-body-large': $font-size-body-large,
+    'size-body-small': $font-size-body-small,
+    'size-heading-default': $font-size-heading-default,
+    'size-heading-large': $font-size-heading-large,
+    'size-heading-small': $font-size-heading-small,
+    'size-heading-xl': $font-size-heading-xl,
+    'size-heading-xs': $font-size-heading-xs,
+    'size-heading-xxl': $font-size-heading-xxl,
+    'size-heading-xxxl': $font-size-heading-xxxl,
+    'size-heading-xxxxl': $font-size-heading-xxxxl,
+    'stretch-body-default': $font-stretch-body-default,
+    'stretch-heading-default': $font-stretch-heading-default,
+    'weight-body-bold': $font-weight-body-bold,
+    'weight-body-default': $font-weight-body-default,
+    'weight-body-medium': $font-weight-body-medium,
+    'weight-heading-default': $font-weight-heading-default,
   ),
   'radius': (
     'default': $radius-default,

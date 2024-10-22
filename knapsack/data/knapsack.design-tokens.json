@@ -1149,184 +1149,196 @@
   },
   "space": {
     "0": {
-      "$type": "number",
-      "$value": 0
+      "$type": "dimension",
+      "$value": "0px"
     },
     "4": {
-      "$type": "number",
-      "$value": 4
+      "$type": "dimension",
+      "$value": "4px"
     },
     "8": {
-      "$type": "number",
-      "$value": 8
+      "$type": "dimension",
+      "$value": "8px"
     },
     "12": {
-      "$type": "number",
-      "$value": 12
+      "$type": "dimension",
+      "$value": "12px"
     },
     "16": {
-      "$type": "number",
-      "$value": 16
+      "$type": "dimension",
+      "$value": "16px"
     },
     "20": {
-      "$type": "number",
-      "$value": 20
+      "$type": "dimension",
+      "$value": "20px"
     },
     "24": {
-      "$type": "number",
-      "$value": 24
+      "$type": "dimension",
+      "$value": "24px"
     },
     "32": {
-      "$type": "number",
-      "$value": 32
+      "$type": "dimension",
+      "$value": "32px"
     },
     "40": {
-      "$type": "number",
-      "$value": 40
+      "$type": "dimension",
+      "$value": "40px"
     },
     "48": {
-      "$type": "number",
-      "$value": 48
+      "$type": "dimension",
+      "$value": "48px"
     },
     "56": {
-      "$type": "number",
-      "$value": 56
+      "$type": "dimension",
+      "$value": "56px"
     },
     "64": {
-      "$type": "number",
-      "$value": 64
+      "$type": "dimension",
+      "$value": "64px"
     },
     "72": {
-      "$type": "number",
-      "$value": 72
+      "$type": "dimension",
+      "$value": "72px"
     },
     "80": {
-      "$type": "number",
-      "$value": 80
+      "$type": "dimension",
+      "$value": "80px"
     },
     "160": {
-      "$type": "number",
-      "$value": 160
+      "$type": "dimension",
+      "$value": "160px"
     },
     "240": {
-      "$type": "number",
-      "$value": 240
+      "$type": "dimension",
+      "$value": "240px"
     },
     "320": {
-      "$type": "number",
-      "$value": 320
+      "$type": "dimension",
+      "$value": "320px"
     },
     "400": {
-      "$type": "number",
-      "$value": 400
+      "$type": "dimension",
+      "$value": "400px"
     },
     "560": {
-      "$type": "number",
-      "$value": 560
+      "$type": "dimension",
+      "$value": "560px"
     },
     "640": {
-      "$type": "number",
-      "$value": 640
+      "$type": "dimension",
+      "$value": "640px"
     },
     "720": {
-      "$type": "number",
-      "$value": 720
+      "$type": "dimension",
+      "$value": "720px"
     },
     "800": {
-      "$type": "number",
-      "$value": 800
+      "$type": "dimension",
+      "$value": "800px"
     }
   },
   "radius": {
     "default": {
-      "$type": "number",
-      "$value": 4
+      "$type": "dimension",
+      "$value": "4px"
     },
     "full": {
-      "$type": "number",
-      "$value": 99999
+      "$type": "dimension",
+      "$value": "99999px"
     },
     "large": {
-      "$type": "number",
-      "$value": 8
+      "$type": "dimension",
+      "$value": "8px"
     },
     "sharp": {
-      "$type": "number",
-      "$value": 2
+      "$type": "dimension",
+      "$value": "2px"
     },
     "xl": {
-      "$type": "number",
-      "$value": 16
+      "$type": "dimension",
+      "$value": "16px"
     }
   },
   "font": {
-    "font-size-default": {
-      "$type": "number",
-      "$value": 14
+    "line-height-body-default": {
+      "$type": "string",
+      "$value": "normal"
     },
-    "font-size-heading-default": {
-      "$type": "number",
-      "$value": 20
-    },
-    "font-size-heading-large": {
-      "$type": "number",
-      "$value": 24
-    },
-    "font-size-heading-small": {
-      "$type": "number",
-      "$value": 17
-    },
-    "font-size-heading-xl": {
-      "$type": "number",
-      "$value": 29
-    },
-    "font-size-heading-xs": {
-      "$type": "number",
-      "$value": 15
-    },
-    "font-size-heading-xxl": {
-      "$type": "number",
-      "$value": 34
-    },
-    "font-size-heading-xxxl": {
-      "$type": "number",
-      "$value": 49
-    },
-    "font-size-heading-xxxxl": {
-      "$type": "number",
-      "$value": 64
-    },
-    "font-size-large": {
-      "$type": "number",
-      "$value": 16
-    },
-    "font-size-small": {
-      "$type": "number",
-      "$value": 12
-    },
-    "line-height-heading": {
+    "line-height-heading-default": {
       "$type": "string",
       "$value": "120%"
     },
-    "style-default-bold": {
+    "line-height-heading-xxxxl": {
       "$type": "string",
-      "$value": "Bold"
+      "$value": "100%"
     },
-    "style-default-medium": {
-      "$type": "string",
-      "$value": "Medium"
+    "size-body-default": {
+      "$type": "dimension",
+      "$value": "14px"
     },
-    "style-default-regular": {
-      "$type": "string",
-      "$value": "Regular"
+    "size-body-large": {
+      "$type": "dimension",
+      "$value": "16px"
     },
-    "style-heading-bold": {
-      "$type": "string",
-      "$value": "SemiCondensed Bold"
+    "size-body-small": {
+      "$type": "dimension",
+      "$value": "12px"
     },
-    "style-heading-medium": {
+    "size-heading-default": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "size-heading-large": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "size-heading-small": {
+      "$type": "dimension",
+      "$value": "17px"
+    },
+    "size-heading-xl": {
+      "$type": "dimension",
+      "$value": "29px"
+    },
+    "size-heading-xs": {
+      "$type": "dimension",
+      "$value": "15px"
+    },
+    "size-heading-xxl": {
+      "$type": "dimension",
+      "$value": "34px"
+    },
+    "size-heading-xxxl": {
+      "$type": "dimension",
+      "$value": "49px"
+    },
+    "size-heading-xxxxl": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "stretch-body-default": {
       "$type": "string",
-      "$value": "SemiCondensed Medium"
+      "$value": "normal"
+    },
+    "stretch-heading-default": {
+      "$type": "string",
+      "$value": "semi-condensed"
+    },
+    "weight-body-bold": {
+      "$type": "string",
+      "$value": "676"
+    },
+    "weight-body-default": {
+      "$type": "string",
+      "$value": "400"
+    },
+    "weight-body-medium": {
+      "$type": "string",
+      "$value": "530"
+    },
+    "weight-heading-default": {
+      "$type": "string",
+      "$value": "700"
     }
   },
   "gradient": {
