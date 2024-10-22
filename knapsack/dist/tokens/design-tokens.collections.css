@@ -1,5 +1,4 @@
 :root {
-  --blur-default: 16;
   --color-ap-blue-activated: rgb(14 110 255 / 100%);
   --color-ap-blue-dark-1: rgb(10 38 222 / 100%);
   --color-ap-blue-dark-2: rgb(5 36 194 / 100%);
@@ -159,7 +158,6 @@
   --color-dark-background-level-1: rgb(31 31 31 / 100%);
   --color-dark-background-level-2: rgb(43 43 43 / 100%);
   --color-dark-background-level-3: rgb(54 54 54 / 100%);
-  --color-dark-black: rgb(0 0 0 / 100%);
   --color-dark-border-accent: rgb(92 164 255 / 100%);
   --color-dark-border-ai: rgb(204 110 255 / 100%);
   --color-dark-border-danger: rgb(255 92 88 / 100%);
@@ -204,6 +202,9 @@
   --color-dark-icon-secondary: rgb(255 255 255 / 60%);
   --color-dark-icon-success: rgb(0 148 90 / 100%);
   --color-dark-icon-warning: rgb(254 118 26 / 100%);
+  --color-dark-static-black: rgb(0 0 0 / 100%);
+  --color-dark-static-transparent: rgb(255 255 255 / 0%);
+  --color-dark-static-white: rgb(255 255 255 / 100%);
   --color-dark-text-accent: rgb(92 164 255 / 100%);
   --color-dark-text-ai: rgb(204 110 255 / 100%);
   --color-dark-text-brand: rgb(255 92 88 / 100%);
@@ -215,13 +216,10 @@
   --color-dark-text-secondary: rgb(255 255 255 / 60%);
   --color-dark-text-success: rgb(0 148 90 / 100%);
   --color-dark-text-warning: rgb(254 118 26 / 100%);
-  --color-dark-transparent: rgb(255 255 255 / 0%);
-  --color-dark-white: rgb(255 255 255 / 100%);
   --color-light-background-default: rgb(255 255 255 / 100%);
   --color-light-background-level-1: rgb(242 242 242 / 100%);
   --color-light-background-level-2: rgb(229 229 229 / 100%);
   --color-light-background-level-3: rgb(217 217 217 / 100%);
-  --color-light-black: rgb(0 0 0 / 100%);
   --color-light-border-accent: rgb(0 84 189 / 100%);
   --color-light-border-ai: rgb(98 0 84 / 100%);
   --color-light-border-danger: rgb(218 16 38 / 100%);
@@ -266,6 +264,9 @@
   --color-light-icon-secondary: rgb(0 0 0 / 60%);
   --color-light-icon-success: rgb(0 108 66 / 100%);
   --color-light-icon-warning: rgb(182 74 0 / 100%);
+  --color-light-static-black: rgb(0 0 0 / 100%);
+  --color-light-static-transparent: rgb(255 255 255 / 0%);
+  --color-light-static-white: rgb(255 255 255 / 100%);
   --color-light-text-accent: rgb(0 84 189 / 100%);
   --color-light-text-ai: rgb(98 0 84 / 100%);
   --color-light-text-brand: rgb(218 16 38 / 100%);
@@ -277,8 +278,6 @@
   --color-light-text-secondary: rgb(0 0 0 / 60%);
   --color-light-text-success: rgb(0 108 66 / 100%);
   --color-light-text-warning: rgb(182 74 0 / 100%);
-  --color-light-transparent: rgb(255 255 255 / 0%);
-  --color-light-white: rgb(255 255 255 / 100%);
   --font-font-size-default: 14;
   --font-font-size-heading-default: 20;
   --font-font-size-heading-large: 24;
@@ -301,27 +300,30 @@
   --radius-large: 8;
   --radius-sharp: 2;
   --radius-xl: 16;
-  --shadow-drop-default: 0px 4px 16px -8px #58585819;
-  --space-0: 0;
-  --space-4: 4;
-  --space-8: 8;
-  --space-12: 12;
-  --space-16: 16;
-  --space-20: 20;
-  --space-24: 24;
-  --space-32: 32;
-  --space-40: 40;
-  --space-48: 48;
-  --space-56: 56;
-  --space-64: 64;
-  --space-72: 72;
-  --space-80: 80;
-  --space-160: 160;
-  --space-240: 240;
-  --space-320: 320;
-  --space-400: 400;
-  --space-560: 560;
-  --space-640: 640;
-  --space-720: 720;
-  --space-800: 800;
+  --sizing-0: 0;
+  --sizing-8: 8;
+  --sizing-16: 16;
+  --sizing-24: 24;
+  --sizing-32: 32;
+  --sizing-40: 40;
+  --sizing-48: 48;
+  --sizing-56: 56;
+  --sizing-64: 64;
+  --sizing-72: 72;
+  --sizing-80: 80;
+  --sizing-large-160: 160;
+  --sizing-large-240: 240;
+  --sizing-large-320: 320;
+  --sizing-large-400: 400;
+  --sizing-large-560: 560;
+  --sizing-large-640: 640;
+  --sizing-large-720: 720;
+  --sizing-large-800: 800;
+  --sizing-micro-4: 4;
+  --sizing-micro-12: 12;
+  --sizing-micro-20: 20;
+}
+
+:root,
+[data-theme-color='default'] {
 }

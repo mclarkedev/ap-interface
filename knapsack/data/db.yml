@@ -25,3 +25,7 @@ settings:
         pageTitle: {}
     version: 10
   title: ''
+  tokens:
+    theming:
+      enabledRendererIds:
+        - html
