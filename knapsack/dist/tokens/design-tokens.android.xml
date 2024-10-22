@@ -163,10 +163,10 @@
   <color name="color_dark_black">rgb(0 0 0 / 100%)</color>
   <color name="color_dark_border_accent">rgb(92 164 255 / 100%)</color>
   <color name="color_dark_border_ai">rgb(204 110 255 / 100%)</color>
+  <color name="color_dark_border_brand">rgb(255 92 88 / 100%)</color>
   <color name="color_dark_border_danger">rgb(255 92 88 / 100%)</color>
   <color name="color_dark_border_default">rgb(255 255 255 / 15%)</color>
   <color name="color_dark_border_focused">rgb(92 164 255 / 100%)</color>
-  <color name="color_dark_border_news">rgb(255 92 88 / 100%)</color>
   <color name="color_dark_border_success">rgb(0 148 90 / 100%)</color>
   <color name="color_dark_border_warning">rgb(254 118 26 / 100%)</color>
   <color name="color_dark_fill_accent_level_1">rgb(0 129 225 / 15%)</color>
@@ -225,10 +225,10 @@
   <color name="color_light_black">rgb(0 0 0 / 100%)</color>
   <color name="color_light_border_accent">rgb(0 84 189 / 100%)</color>
   <color name="color_light_border_ai">rgb(98 0 84 / 100%)</color>
+  <color name="color_light_border_brand">rgb(218 16 38 / 100%)</color>
   <color name="color_light_border_danger">rgb(218 16 38 / 100%)</color>
   <color name="color_light_border_default">rgb(0 0 0 / 15%)</color>
   <color name="color_light_border_focused">rgb(0 84 189 / 100%)</color>
-  <color name="color_light_border_news">rgb(218 16 38 / 100%)</color>
   <color name="color_light_border_success">rgb(0 108 66 / 100%)</color>
   <color name="color_light_border_warning">rgb(182 74 0 / 100%)</color>
   <color name="color_light_fill_accent_level_1">rgb(0 94 199 / 8%)</color>

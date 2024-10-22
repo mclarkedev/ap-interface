@@ -162,10 +162,10 @@ import UIKit
     public static let colorDarkBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1);
     public static let colorDarkBorderAccent = UIColor(red: 0.361, green: 0.643, blue: 1.000, alpha: 1);
     public static let colorDarkBorderAi = UIColor(red: 0.800, green: 0.431, blue: 1.000, alpha: 1);
+    public static let colorDarkBorderBrand = UIColor(red: 1.000, green: 0.361, blue: 0.345, alpha: 1);
     public static let colorDarkBorderDanger = UIColor(red: 1.000, green: 0.361, blue: 0.345, alpha: 1);
     public static let colorDarkBorderDefault = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.15);
     public static let colorDarkBorderFocused = UIColor(red: 0.361, green: 0.643, blue: 1.000, alpha: 1);
-    public static let colorDarkBorderNews = UIColor(red: 1.000, green: 0.361, blue: 0.345, alpha: 1);
     public static let colorDarkBorderSuccess = UIColor(red: 0.000, green: 0.580, blue: 0.353, alpha: 1);
     public static let colorDarkBorderWarning = UIColor(red: 0.996, green: 0.463, blue: 0.102, alpha: 1);
     public static let colorDarkFillAccentLevel1 = UIColor(red: 0.000, green: 0.506, blue: 0.882, alpha: 0.15);
@@ -224,10 +224,10 @@ import UIKit
     public static let colorLightBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1);
     public static let colorLightBorderAccent = UIColor(red: 0.000, green: 0.329, blue: 0.741, alpha: 1);
     public static let colorLightBorderAi = UIColor(red: 0.384, green: 0.000, blue: 0.329, alpha: 1);
+    public static let colorLightBorderBrand = UIColor(red: 0.855, green: 0.063, blue: 0.149, alpha: 1);
     public static let colorLightBorderDanger = UIColor(red: 0.855, green: 0.063, blue: 0.149, alpha: 1);
     public static let colorLightBorderDefault = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.15);
     public static let colorLightBorderFocused = UIColor(red: 0.000, green: 0.329, blue: 0.741, alpha: 1);
-    public static let colorLightBorderNews = UIColor(red: 0.855, green: 0.063, blue: 0.149, alpha: 1);
     public static let colorLightBorderSuccess = UIColor(red: 0.000, green: 0.424, blue: 0.259, alpha: 1);
     public static let colorLightBorderWarning = UIColor(red: 0.714, green: 0.290, blue: 0.000, alpha: 1);
     public static let colorLightFillAccentLevel1 = UIColor(red: 0.000, green: 0.369, blue: 0.780, alpha: 0.08);

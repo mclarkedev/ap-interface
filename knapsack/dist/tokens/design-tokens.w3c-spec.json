@@ -687,7 +687,7 @@
         "$type": "color",
         "$value": "rgb(92 164 255 / 100%)"
       },
-      "border-news": {
+      "border-brand": {
         "$type": "color",
         "$value": "rgb(255 92 88 / 100%)"
       },
@@ -937,7 +937,7 @@
         "$type": "color",
         "$value": "rgb(0 84 189 / 100%)"
       },
-      "border-news": {
+      "border-brand": {
         "$type": "color",
         "$value": "rgb(218 16 38 / 100%)"
       },
